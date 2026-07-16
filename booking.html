@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sa'ad Language Center | Booking</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            
+            <h1>Sa'ad Language Center</h1>
+        </div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html" class="active">Booking</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Book Your Language Course</h2>
+        <form action="#" method="POST" class="booking-form">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="e.g. Sa'ad Said Araye" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="major">Select Your Language *</label>
+                    <select id="major" name="major" required>
+                        <option value="">-- Please choose --</option>
+                        <option value="english">English</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="somali">Somali</option>
+                        <option value="french">French</option>
+                        <option value="spanish">Spanish</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="male" required />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" />
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" />
+                    <label for="other">Other</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Hobbies (optional)</legend>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="reading" name="hobbies" value="reading" />
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="travel" name="hobbies" value="travel" />
+                    <label for="travel">Travel</label>
+                    <input type="checkbox" id="music" name="hobbies" value="music" />
+                    <label for="music">Music</label>
+                    <input type="checkbox" id="sports" name="hobbies" value="sports" />
+                    <label for="sports">Sports</label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Any special requests..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">Submit Booking</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sa'ad Language Center. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
