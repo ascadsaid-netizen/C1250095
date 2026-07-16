@@ -353,7 +353,7 @@ legend {
 .about-image img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 51%;
     object-fit: cover;
     border: 6px solid #0a2a5c;
     box-shadow: 0 8px 25px rgba(10, 42, 92, 0.3);
