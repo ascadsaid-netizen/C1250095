@@ -351,8 +351,8 @@ legend {
 }
 
 .about-image img {
-    width: 2020px;
-    height: 2020px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 6px solid #0a2a5c;
