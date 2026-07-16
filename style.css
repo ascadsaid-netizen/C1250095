@@ -542,3 +542,50 @@ footer p {
         max-height: 200px;
     }
 }
+
+/* ===== About Page - Profile Image ===== */
+.profile-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #ff6f00;
+    box-shadow: 0 8px 30px rgba(255, 111, 0, 0.4);
+    transition: all 0.5s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.08) rotate(-3deg);
+    box-shadow: 0 15px 45px rgba(255, 111, 0, 0.6);
+    border-color: #1a237e;
+}
+
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6f00, #e65100);
+    color: white;
+    padding: 6px 20px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(255, 111, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.badge:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(255, 111, 0, 0.5);
+}
