@@ -1,148 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery & Data | Language Learning Center</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sa'ad Language Center | Gallery</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header role="banner">
-        <div class="container">
-            <h1><a href="index.html"> LangLearn Center</a></h1>
-            <nav role="navigation" aria-label="Main Navigation">
-                <a href="index.html">Home</a>
-                <a href="gallery.html" class="active">Gallery</a>
-                <a href="booking.html">Booking</a>
-                <a href="help.html">Help</a>
-                <a href="about.html">About</a>
-            </nav>
+
+    <header>
+        <div class="logo">
+            
+            <h1>Sa'ad Language Center</h1>
         </div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main role="main">
-        <div class="container">
-            <h2 style="text-align:center; color:#1a237e; margin-bottom:30px; font-size:2rem;">
-                 Our Language Learning Gallery
-            </h2>
+    <main>
+        <h2>Our Language Learning Gallery</h2>
 
-            <!-- Gallery Section -->
-            <div class="gallery-grid">
-                <figure class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop" 
-                         alt="Students in a language classroom with teacher" loading="lazy">
-                    <figcaption>Interactive Classroom Sessions</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400&h=300&fit=crop" 
-                         alt="Library with books from around the world" loading="lazy">
-                    <figcaption>Multilingual Library</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop" 
-                         alt="Students using tablets and laptops for learning" loading="lazy">
-                    <figcaption>Modern Learning Technology</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=300&fit=crop" 
-                         alt="Students practicing conversation" loading="lazy">
-                    <figcaption>Conversation Practice</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop" 
-                         alt="Diverse group of students learning together" loading="lazy">
-                    <figcaption>Diverse Learning Community</figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop" 
-                         alt="Student reading a book" loading="lazy">
-                    <figcaption>Reading & Comprehension</figcaption>
-                </figure>
-            </div>
+        <section class="gallery-grid">
+            <figure>
+                <img src="https://flagcdn.com/w320/gb.png" alt="English language flag" />
+                <figcaption> English Classes</figcaption>
+            </figure>
+            <figure>
+                <img src="https://flagcdn.com/w320/sa.png" alt="Arabic language flag" />
+                <figcaption> Arabic Classes</figcaption>
+            </figure>
+            <figure>
+                <img src="https://flagcdn.com/w320/so.png" alt="Somali language flag" />
+                <figcaption> Somali Classes</figcaption>
+            </figure>
+        </section>
 
-            <!-- Data Table Section -->
-            <h3 style="text-align:center; color:#1a237e; margin-top:50px; font-size:1.8rem;">
-                 Course Schedule & Pricing
-            </h3>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Language</th>
-                            <th>Level</th>
-                            <th>Duration</th>
-                            <th>Fee (USD)</th>
-                            <th>Enroll</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>🇬🇧 English</td>
-                            <td>Beginner</td>
-                            <td>8 weeks</td>
-                            <td>$200</td>
-                            <td><a href="booking.html" style="color:#ff6f00; font-weight:bold;">Book Now</a></td>
-                        </tr>
-                        <tr>
-                            <td>🇸🇦 Arabic</td>
-                            <td>Intermediate</td>
-                            <td>10 weeks</td>
-                            <td>$250</td>
-                            <td><a href="booking.html" style="color:#ff6f00; font-weight:bold;">Book Now</a></td>
-                        </tr>
-                        <tr>
-                            <td>🇫🇷 French</td>
-                            <td>Advanced</td>
-                            <td>12 weeks</td>
-                            <td>$300</td>
-                            <td><a href="booking.html" style="color:#ff6f00; font-weight:bold;">Book Now</a></td>
-                        </tr>
-                        <tr>
-                            <td>🇸🇴 Somali</td>
-                            <td>All Levels</td>
-                            <td>6 weeks</td>
-                            <td>$150</td>
-                            <td><a href="booking.html" style="color:#ff6f00; font-weight:bold;">Book Now</a></td>
-                        </tr>
-                        <tr>
-                            <td>🇪🇸 Spanish</td>
-                            <td>Intermediate</td>
-                            <td>10 weeks</td>
-                            <td>$230</td>
-                            <td><a href="booking.html" style="color:#ff6f00; font-weight:bold;">Book Now</a></td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="4" style="text-align:right; font-size:1.1rem;">
-                                 Special Discount for 3+ courses:
-                            </td>
-                            <td><strong>15% Off</strong></td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
+        <section class="table-section">
+            <h3>Course Schedule &amp; Fees</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Level</th>
+                        <th>Duration</th>
+                        <th>Fee ($)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>English</td><td>Beginner</td><td>3 months</td><td>150</td></tr>
+                    <tr><td>English</td><td>Intermediate</td><td>4 months</td><td>200</td></tr>
+                    <tr><td>Arabic</td><td>Beginner</td><td>3 months</td><td>120</td></tr>
+                    <tr><td>Somali</td><td>All Levels</td><td>2 months</td><td>100</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr><td colspan="4">* Discounts available for group enrollments</td></tr>
+                </tfoot>
+            </table>
+        </section>
 
-            <p style="text-align:center; margin-top:25px; font-size:1.1rem;">
-                 Learn more about our courses on 
-                <a href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer" 
-                   style="color:#ff6f00; font-weight:bold; text-decoration:none; border-bottom:2px solid #ff6f00;">
-                    Duolingo
-                </a> 
-                or 
-                <a href="https://www.babbel.com/" target="_blank" rel="noopener noreferrer" 
-                   style="color:#6a1b9a; font-weight:bold; text-decoration:none; border-bottom:2px solid #6a1b9a;">
-                    Babbel
-                </a>
-            </p>
-        </div>
+        <section class="external-links">
+            <h3>Useful Resources</h3>
+            <ul>
+                <li><a href="https://www.duolingo.com" target="_blank">Duolingo – Free Language App</a></li>
+                <li><a href="https://www.britishcouncil.org" target="_blank">British Council – Learn English</a></li>
+                <li><a href="https://www.aljazeera.com/learn_arabic" target="_blank">Al Jazeera – Learn Arabic</a></li>
+            </ul>
+        </section>
     </main>
 
-    <footer role="contentinfo">
-        <div class="container">
-            <p>&copy; 2025 Language Learning Center | Sa'ad Said Araye | C1250095</p>
-        </div>
+    <footer>
+        <p>&copy; 2026 Sa'ad Language Center. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
